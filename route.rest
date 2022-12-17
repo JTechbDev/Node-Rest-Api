@@ -1,0 +1,27 @@
+GET HTTP://localhost:3000/subscribers
+###
+
+GET HTTP://localhost:3000/subscribers/639d365ef5efa1952c31fc1a
+###
+
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Mary",
+    "subscribedToChannel":"Jdev"
+}
+
+###
+
+DELETE  HTTP://localhost:3000/subscribers/639d3685f5efa1952c31fc1d
+###
+
+PATCH HTTP://localhost:3000/subscribers/639df8e787c80f4d5b6a777d
+Content-Type: application/json
+
+{
+    "name": "New name"
+   
+}
